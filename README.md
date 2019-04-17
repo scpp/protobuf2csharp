@@ -1,5 +1,8 @@
-Protocol Buffers - Google's data interchange format
+Protocol Buffers 2.6.1 - Google's data interchange format (V2)
 ===================================================
+**Minimal version without tests and java generator**
+
+**C# generator included and adapted from version 3.5.1**
 
 Copyright 2008 Google Inc.
 
@@ -25,7 +28,6 @@ Buffer compiler (protoc) execute the following:
 
     $ ./configure
     $ make
-    $ make check
     $ make install
 
 If "make check" fails, you can still install, but it is likely that
